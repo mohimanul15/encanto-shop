@@ -12,6 +12,7 @@ import {
     FaHeart
 } from 'react-icons/fa';
 import './Home.css';
+import FAQ from '../../component/FAQ/FAQ';
 
 function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -359,6 +360,9 @@ function Home() {
                     ))}
                 </div>
             </div>
+
+            {/* FAQ Section */}
+            <FAQ />
 
             {/* CTA Section */}
             <motion.div
