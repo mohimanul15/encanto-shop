@@ -36,7 +36,7 @@ const FAQ = () => {
         <meta property="og:type" content="website" />
 
       {/* 1. FAQ HERO SECTION */}
-      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-r from-rose-300/80 via-rose-400/60 to-pink-200/80">
+      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-r from-rose-700/80 via-rose-400/80 to-pink-700/80">
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 z-0">
           <motion.div 
@@ -57,7 +57,7 @@ const FAQ = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-serif font-bold text-gray-900 mb-6"
           >
-            How can we <span className="text-pink-400 italic text-6xl md:text-8xl block md:inline">help?</span>
+            How can we <span className="text-pink-800 italic text-6xl md:text-8xl block md:inline">help?</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}

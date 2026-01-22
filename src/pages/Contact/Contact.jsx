@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa';
 
 const Contact = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-r from-rose-100/80 via-rose-400/60 to-transparent pt-32 pb-20 px-6 relative overflow-hidden">
+        <div className="min-h-screen bg-gradient-to-r from-rose-700/80 via-rose-800/60 to-rose-600/40 pt-32 pb-20 px-6 relative overflow-hidden">
 
             {/* SEO data */}
             <meta name="description" content="Contact Encanto - Natural Hair Care Products" />
@@ -56,7 +56,7 @@ const Contact = () => {
 
                             <div className="mt-12 space-y-8">
                                 <div className="flex items-center gap-6 group">
-                                    <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-pink-400 shadow-sm group-hover:scale-110 transition-transform">
+                                    <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-pink-00 shadow-sm group-hover:scale-110 transition-transform">
                                         <HiMail size={24} />
                                     </div>
                                     <div>
@@ -83,7 +83,7 @@ const Contact = () => {
                                         key={i}
                                         whileHover={{ y: -5 }}
                                         href="#"
-                                        className="w-10 h-10 flex items-center justify-center text-pink-300 hover:text-pink-500 transition-colors"
+                                        className="w-10 h-10 flex items-center justify-center text-pink-800 hover:text-pink-500 transition-colors"
                                     >
                                         <Icon size={22} />
                                     </motion.a>

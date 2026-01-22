@@ -84,7 +84,7 @@ function Home() {
                         backgroundImage: 'url(/product.png)',
                     }}
                 >
-                    <div className="absolute inset-0 bg-gradient-to-r from-rose-100/80 via-rose-400/60 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-rose-700/80 via-rose-400/60 to-pink-500/50"></div>
                     <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-black/70"></div>
                 </div>
 
