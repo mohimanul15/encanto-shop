@@ -7,6 +7,7 @@ import Home from './pages/Home/Home'
 import NotFound from './pages/NotFound/NotFound'
 import Contact from './pages/Contact/Contact'
 import Product from './pages/Product/Product'
+import FAQ from './pages/FAQ/FAQ'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/product",
         element: <Product />
+      },
+      {
+        path: "/faq",
+        element: <FAQ />
       }
     ]
   },

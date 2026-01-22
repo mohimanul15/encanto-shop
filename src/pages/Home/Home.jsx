@@ -14,6 +14,7 @@ import {
 import './Home.css';
 import FAQ from '../../component/FAQ/FAQ';
 import { image } from 'framer-motion/client';
+import { Link } from 'react-router';
 
 function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -385,7 +386,7 @@ function Home() {
                         Start your journey with natural, luxurious products today.
                     </p>
                     <button className="px-10 py-4 bg-white text-purple-600 font-bold rounded-full text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-                        Shop Now
+                        <Link to="/product">Shop Now</Link>
                     </button>
                 </div>
             </motion.div>

@@ -57,8 +57,8 @@ function Footer() {
             <ul className="space-y-4 text-sm text-gray-600">
               <li><a href="#shipping" className="hover:text-pink-500 transition-colors">Shipping Policy</a></li>
               <li><a href="#returns" className="hover:text-pink-500 transition-colors">Returns & Exchanges</a></li>
-              <li><a href="#faq" className="hover:text-pink-500 transition-colors">FAQs</a></li>
-              <li><a href="#contact" className="hover:text-pink-500 transition-colors">Contact Us</a></li>
+              <li><a href="/faq" className="hover:text-pink-500 transition-colors">FAQs</a></li>
+              <li><a href="/contact" className="hover:text-pink-500 transition-colors">Contact Us</a></li>
             </ul>
           </div>
 
