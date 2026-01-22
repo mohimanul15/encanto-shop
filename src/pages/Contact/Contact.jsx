@@ -35,7 +35,7 @@ const Contact = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
-                className="text-5xl md:text-6xl font-serif font-bold text-gray-900 mt-4 leading-tight"
+                className="text-5xl md:text-6xl font-bold text-gray-900 mt-4 leading-tight"
               >
                 We'd Love to Hear <br />From You!
               </motion.h1>

@@ -6,6 +6,7 @@ import {
   FaTiktok, 
   FaEnvelope 
 } from 'react-icons/fa';
+import Logo from '/logo.png'; // Adjust the path as necessary
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,7 +19,7 @@ function Footer() {
           {/* Brand Column */}
           <div className="space-y-4">
             <img 
-              src="/path-to-your-logo/logo.png" 
+              src={Logo} 
               alt="Encanto Logo" 
               className="h-10 w-auto"
             />

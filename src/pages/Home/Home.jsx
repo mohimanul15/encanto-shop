@@ -13,6 +13,7 @@ import {
 } from 'react-icons/fa';
 import './Home.css';
 import FAQ from '../../component/FAQ/FAQ';
+import { image } from 'framer-motion/client';
 
 function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -28,8 +29,9 @@ function Home() {
             icon: <FaSoap />,
             description: 'Handcrafted vegan soaps with peptides for luxurious skincare. The best choice for all hair types.',
             features: ['Vegan Formula', 'Peptide Enriched', 'All Hair Types', 'Natural Ingredients'],
-            color: 'from-purple-500 to-pink-500',
-            delay: 0.1
+            color: 'from-purple-500/50 to-pink-500/50',
+            delay: 0.1,
+            image: '/soap.avif',
         },
         {
             id: 2,
@@ -37,8 +39,9 @@ function Home() {
             icon: <FaShower />,
             description: 'Effective lice & nit elimination with tea tree & peppermint oils. Safe for repeat use.',
             features: ['Effective Elimination', 'Safe for Repeat Use', 'All Hair Types', 'Essential Oils'],
-            color: 'from-green-500 to-teal-500',
-            delay: 0.2
+            color: 'from-green-500/50 to-teal-500/50',
+            delay: 0.2,
+            image: '/lice.avif',
         },
         {
             id: 3,
@@ -46,8 +49,9 @@ function Home() {
             icon: <FaSprayCan />,
             description: 'Complete your hair care routine with our nourishing conditioner for healthy, shiny hair.',
             features: ['Deep Nourishment', 'Hair Repair', 'Vegan Formula', 'All Hair Types'],
-            color: 'from-orange-500 to-red-500',
-            delay: 0.3
+            color: 'from-orange-500/50 to-red-500/50',
+            delay: 0.3,
+            image: '/shampoo.avif',
         }
     ];
 
@@ -298,9 +302,10 @@ function Home() {
                             transition={{ duration: 0.6, delay: product.delay }}
                             whileHover={{ y: -10, transition: { duration: 0.2 } }}
                             className="group"
+                            style={{right: '-100px', backgroundImage: `url(${product.image})`, backgroundSize: 'contain', backgroundPosition: 'right', repeat: 'no-repeat'}}
                         >
                             <div className={`bg-gradient-to-br ${product.color} p-1 rounded-2xl h-full`}>
-                                <div className="bg-white rounded-2xl p-8 h-full flex flex-col">
+                                <div className="bg-white/70 rounded-2xl p-8 h-full flex flex-col">
                                     <div className={`inline-flex p-4 rounded-xl bg-gradient-to-r ${product.color} text-white text-3xl mb-6 self-start`}>
                                         {product.icon}
                                     </div>

@@ -5,7 +5,7 @@ import Footer from '../../component/Footer/Footer';
 
 const Default = () => {
     return (
-        <div>
+        <div className='font-montserrat'>
             <Header />
             <main>
                 <Outlet />

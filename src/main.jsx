@@ -6,6 +6,7 @@ import Default from './layout/Default/Default'
 import Home from './pages/Home/Home'
 import NotFound from './pages/NotFound/NotFound'
 import Contact from './pages/Contact/Contact'
+import Product from './pages/Product/Product'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/product",
+        element: <Product />
       }
     ]
   },

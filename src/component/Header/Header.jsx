@@ -18,9 +18,8 @@ function Header() {
     }, []);
 
     const navLinks = [
-        { name: 'Soap', href: '#soap' },
-        { name: 'Shampoo', href: '#shampoo' },
-        { name: 'Lice Banishers', href: '#lice-banishers' },
+        { name: 'Home', href: '/' },
+        { name: 'Products', href: '/product' },
         { name: 'Contact', href: '/contact' }
     ];
 
