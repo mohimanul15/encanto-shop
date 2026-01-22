@@ -24,7 +24,17 @@ const FAQ = () => {
 
   return (
     <div className="bg-white min-h-screen">
-      
+
+        {/* SEO Meta Tags */}
+        <meta name="description" content="Frequently Asked Questions about Encanto Scented products, shipping, and safety." />
+        <meta name="keywords" content="Encanto, FAQ, Natural Hair Care, Organic Shampoo, Herbal Soap, Lice Banishers, Hair Care Products, Eco-friendly, Sustainable Beauty" />
+        <meta name="author" content="Mohimanul" />
+        <meta name="robots" content="index, follow" />
+        <title>FAQ - Encanto Scented</title>
+        <meta property="og:title" content="FAQ - Encanto Scented" />
+        <meta property="og:description" content="Find answers to our most common questions about Encanto Scented products, shipping, and safety." />
+        <meta property="og:type" content="website" />
+
       {/* 1. FAQ HERO SECTION */}
       <section className="relative h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-r from-rose-300/80 via-rose-400/60 to-pink-200/80">
         {/* Decorative Background Elements */}

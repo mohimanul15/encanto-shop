@@ -45,6 +45,17 @@ const Product = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-rose-100/80 via-rose-400/60 to-black/10 pt-36 space-y-16">
+
+        {/* SEO Meta Tags */}
+        <meta name="description" content="Discover our range of natural, handmade products crafted with care and sustainable ingredients." />
+        <meta name="keywords" content="Encanto, Natural Products, Handmade Soap, Organic Shampoo, Lice Banishers, Eco-friendly Beauty" />
+        <meta name="author" content="Mohimanul" />
+        <meta name="robots" content="index, follow" />
+        <title>Products - Encanto Scented</title>
+        <meta property="og:title" content="Products - Encanto Scented" />
+        <meta property="og:description" content="Discover our range of natural, handmade products crafted with care and sustainable ingredients." />
+        <meta property="og:type" content="website" />
+
       <div className="max-w-7xl mx-auto px-8">
         
         {/* HEADER & FILTERS */}

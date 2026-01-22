@@ -64,6 +64,17 @@ function Home() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+
+            {/* SEO Meta Tags */}
+            <meta name="description" content="Discover our range of natural, handmade products crafted with care and sustainable ingredients." />
+            <meta name="keywords" content="Encanto, Natural Products, Handmade Soap, Organic Shampoo, Lice Banishers, Eco-friendly Beauty" />
+            <meta name="author" content="Mohimanul" />
+            <meta name="robots" content="index, follow" />
+            <title>Home - Encanto Scented</title>
+            <meta property="og:title" content="Home - Encanto Scented" />
+            <meta property="og:description" content="Discover our range of natural, handmade products crafted with care and sustainable ingredients." />
+            <meta property="og:type" content="website" />
+
             {/* Modern Hero Section with Background Image */}
             <div className="relative min-h-dvh overflow-hidden">
                 {/* Background Image with Overlay */}
