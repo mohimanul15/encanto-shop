@@ -21,6 +21,7 @@ function Header() {
         { name: 'Soap', href: '#soap' },
         { name: 'Shampoo', href: '#shampoo' },
         { name: 'Lice Banishers', href: '#lice-banishers' },
+        { name: 'Contact', href: '/contact' }
     ];
 
     return (
