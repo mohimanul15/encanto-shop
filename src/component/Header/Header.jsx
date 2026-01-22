@@ -37,24 +37,27 @@ function Header() {
 
                         {/* Logo Section */}
                         <div className="flex-shrink-0 flex items-center">
-                            <img
-                                src={Logo}
-                                alt="Encanto Scented Logo"
-                                className="h-12 w-auto"
-                            />
+                            <Link to="/">
+                                <img
+                                    src={Logo}
+                                    alt="Encanto Scented Logo"
+                                    className="h-12 w-auto"
+                                />
+                            </Link>
                         </div>
 
                         {/* Desktop Navigation */}
                         <div className="hidden md:flex space-x-8 items-center">
                             {navLinks.map((link) => (
-                                <motion.a
+                                <motion.div
                                     key={link.name}
-                                    href={link.href}
                                     whileHover={{ y: -2 }}
                                     className={`${isScrolled ? 'text-gray-600' : 'text-white/70'} hover:text-pink-500 font-medium transition-colors`}
                                 >
-                                    {link.name}
-                                </motion.a>
+                                    <Link to={link.href}>
+                                        {link.name}
+                                    </Link>
+                                </motion.div>
                             ))}
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
@@ -94,7 +97,7 @@ function Header() {
                             {navLinks.map((link) => (
                                 <Link
                                     key={link.name}
-                                    href={link.href}
+                                    to={link.href}
                                     onClick={() => setIsOpen(false)}
                                     className="block px-3 py-3 text-base font-medium text-gray-600 hover:text-pink-500 hover:bg-pink-50 rounded-lg"
                                 >
